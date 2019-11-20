@@ -14,7 +14,7 @@ namespace Ex11202019
             ArrayList arrayListA = new ArrayList(2);
             ArrayList arrayListB = new ArrayList();
 
-            Console.WriteLine(" Default Capacity : {0} ",arrayListB.Capacity );
+            Console.WriteLine("Default Capacity : {0} ",arrayListB.Capacity );
 
             Console.WriteLine("Capacity of ArrayListA :{0} ", arrayListA.Capacity);
             Console.WriteLine("Number of elements in ArrayListA when Start: {0}", arrayListA.Count);

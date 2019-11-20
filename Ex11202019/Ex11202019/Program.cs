@@ -23,6 +23,9 @@ namespace Ex11202019
                 case 1:
                     exercise = new TestArr();
                     break;
+                case 2:
+                    exercise = new TestList();
+                    break;
                 default:
                     exercise = new TestArr();
                     break;
