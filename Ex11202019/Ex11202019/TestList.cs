@@ -23,6 +23,8 @@ namespace Ex11202019
             listA.Add(new Student(2, "nhan"));
             listA.Add(new Student(0, "Nam"));
 
+            listA.OrderBy(x => x.Name);
+
             Console.WriteLine("Number of elements in List after add : {0}", listA.Count);
             Console.WriteLine("Capacity of ListA after add : {0}", listA.Capacity);
             Console.ReadKey();
